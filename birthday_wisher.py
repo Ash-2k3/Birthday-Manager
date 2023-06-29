@@ -7,4 +7,5 @@ import os
 # Interaction with Email File
 
 if __name__ == "__main__":
-           df = pd.read
+           df = pd.read_excel("Birthday_Sheet.xlsx")
+           print(df);
